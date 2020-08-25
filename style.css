@@ -4,6 +4,11 @@ body {
                 animation: bubbles 5s infinite;
                
             }
+ header{
+                margin: 3px;
+                border: hotpink 3px double;
+                border-radius: 15px;
+            }
             
 
             .size {
