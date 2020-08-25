@@ -1,14 +1,469 @@
-body{
-  background-color: lightcyan;
-        }
+body {
+                background-color: lightcyan;
+                margin: 0;
+                animation: bubbles 5s infinite;
+               
+            }
+            
 
+            .size {
+                width: 300px;
+                height: 500px;
+                transform: hue-rotate(360deg);
+               
+            }
 
-.size{
-            width: 300px;
-            height: 300px;
-        }
-h1{
-            color: blue;
-        }
-p{
-  color:green;}
+            h1 {
+                color: darkblue;
+                font-size: 45px;
+                text-shadow: white 2px 2px;
+            }
+
+            p {
+                color: green;
+            }
+
+            .one {
+                float: left;
+            }
+
+            .two {
+                float: left;
+
+            }
+
+            .bar {
+                width: 100%;
+                height: 20vh;
+
+            }
+            .com {
+                display: flex;
+                background: url(color.png);
+                background-size: cover;
+            }
+            span{
+                
+                text-decoration-style: wavy;
+            }
+            button{
+                background-color: navy;
+                color: white;
+                border-radius: 5px;
+                height: 25px;
+            }
+ div {
+                animation: bubbles 5s infinite;
+            }
+
+            @keyframes bubbles {
+                1% {
+                    filter: hue-rotate(360deg);
+                   
+                }
+
+                2% {
+                    filter: hue-rotate(355deg);
+                }
+
+                3% {
+                    filter: hue-rotate(350deg);
+                    
+                }
+
+                4% {
+                    filter: hue-rotate(345deg);
+                }
+
+                5% {
+                    filter: hue-rotate(340deg);
+                    
+                }
+
+                6% {
+                    filter: hue-rotate(335deg);
+                                     
+
+                }
+
+                7% {
+                    filter: hue-rotate(330deg);
+                }
+
+                8% {
+                    filter: hue-rotate(325deg);
+                }
+
+                9% {
+                    filter: hue-rotate(320deg);
+                }
+
+                10% {
+                    filter: hue-rotate(315deg);
+                    
+                }
+
+                11% {
+                    filter: hue-rotate(310deg);
+                    
+                }
+
+                12% {
+                    filter: hue-rotate(305deg);
+                }
+
+                13% {
+                    filter: hue-rotate(300deg);
+                         
+                }
+
+                14% {
+                    filter: hue-rotate(295deg);
+                }
+
+                15% {
+                    filter: hue-rotate(290deg);
+                }
+
+                16% {
+                    filter: hue-rotate(285deg);
+                }
+
+                17% {
+                    filter: hue-rotate(280deg);
+                        
+                }
+
+                18% {
+                    filter: hue-rotate(275deg);
+                }
+
+                19% {
+                    filter: hue-rotate(270deg);
+                }
+
+                20% {
+                    filter: hue-rotate(265deg);
+                }
+
+                21% {
+                    filter: hue-rotate(260deg);
+                }
+
+                22% {
+                    filter: hue-rotate(255deg);
+                }
+
+                23% {
+                    filter: hue-rotate(250deg);
+                }
+
+                24% {
+                    filter: hue-rotate(245deg);
+                }
+
+                25% {
+                    filter: hue-rotate(240deg);
+                }
+
+                26% {
+                    filter: hue-rotate(235deg);
+                }
+
+                27% {
+                    filter: hue-rotate(230deg);
+                }
+
+                28% {
+                    filter: hue-rotate(225deg);
+                }
+
+                29% {
+                    filter: hue-rotate(220deg);
+                }
+
+                30% {
+                    filter: hue-rotate(215deg);
+                }
+
+                31% {
+                    filter: hue-rotate(210deg);
+                }
+
+                32% {
+                    filter: hue-rotate(205deg);
+                }
+
+                33% {
+                    filter: hue-rotate(200deg);
+                }
+
+                34% {
+                    filter: hue-rotate(195deg);
+                }
+
+                35% {
+                    filter: hue-rotate(190deg);
+                }
+
+                36% {
+                    filter: hue-rotate(185deg);
+                }
+
+                37% {
+                    filter: hue-rotate(180deg);
+                }
+
+                38% {
+                    filter: hue-rotate(175deg);
+                }
+
+                39% {
+                    filter: hue-rotate(170deg);
+                }
+
+                40% {
+                    filter: hue-rotate(165deg);
+                }
+
+                41% {
+                    filter: hue-rotate(160deg);
+                }
+
+                42% {
+                    filter: hue-rotate(155deg);
+                }
+
+                43% {
+                    filter: hue-rotate(150deg);
+                }
+
+                44% {
+                    filter: hue-rotate(145deg);
+                }
+
+                45% {
+                    filter: hue-rotate(140deg);
+                }
+
+                46% {
+                    filter: hue-rotate(135deg);
+                }
+
+                47% {
+                    filter: hue-rotate(130deg);
+                }
+
+                48% {
+                    filter: hue-rotate(125deg);
+                }
+
+                49% {
+                    filter: hue-rotate(120deg);
+                }
+
+                50% {
+                    filter: hue-rotate(115deg);
+                }
+
+                51% {
+                    filter: hue-rotate(110deg);
+                }
+
+                52% {
+                    filter: hue-rotate(105deg);
+                }
+
+                53% {
+                    filter: hue-rotate(100deg);
+                }
+
+                54% {
+                    filter: hue-rotate(95deg);
+                }
+
+                55% {
+                    filter: hue-rotate(90deg);
+                }
+
+                56% {
+                    filter: hue-rotate(85deg);
+                }
+
+                57% {
+                    filter: hue-rotate(80deg);
+                }
+
+                58% {
+                    filter: hue-rotate(75deg);
+                }
+
+                59% {
+                    filter: hue-rotate(70deg);
+                }
+
+                60% {
+                    filter: hue-rotate(65deg);
+                }
+
+                61% {
+                    filter: hue-rotate(60deg);
+                }
+
+                62% {
+                    filter: hue-rotate(55deg);
+                }
+
+                63% {
+                    filter: hue-rotate(50deg);
+                }
+
+                64% {
+                    filter: hue-rotate(45deg);
+                }
+
+                65% {
+                    filter: hue-rotate(40deg);
+                }
+
+                66% {
+                    filter: hue-rotate(35deg);
+                }
+
+                67% {
+                    filter: hue-rotate(30deg);
+                }
+
+                68% {
+                    filter: hue-rotate(25deg);
+                }
+
+                69% {
+                    filter: hue-rotate(20deg);
+                }
+
+                70% {
+                    filter: hue-rotate(15deg);
+                }
+
+                71% {
+                    filter: hue-rotate(10deg);
+                }
+
+                72% {
+                    filter: hue-rotate(5deg);
+                }
+
+                73% {
+                    filter: hue-rotate(0deg);
+                }
+
+                74% {
+                    filter: hue-rotate(-5deg);
+                }
+
+                75% {
+                    filter: hue-rotate(-10deg);
+                }
+
+                76% {
+                    filter: hue-rotate(-15deg);
+                }
+
+                77% {
+                    filter: hue-rotate(-20deg);
+                }
+
+                78% {
+                    filter: hue-rotate(-25deg);
+                }
+
+                79% {
+                    filter: hue-rotate(-30deg);
+                }
+
+                80% {
+                    filter: hue-rotate(-35deg);
+                }
+
+                81% {
+                    filter: hue-rotate(-40deg);
+                }
+
+                82% {
+                    filter: hue-rotate(-45deg);
+                }
+
+                83% {
+                    filter: hue-rotate(-50deg);
+                }
+
+                84% {
+                    filter: hue-rotate(-55deg);
+                }
+
+                85% {
+                    filter: hue-rotate(-60deg);
+                }
+
+                86% {
+                    filter: hue-rotate(-65deg);
+                }
+
+                87% {
+                    filter: hue-rotate(-70deg);
+                }
+
+                88% {
+                    filter: hue-rotate(-75deg);
+                }
+
+                89% {
+                    filter: hue-rotate(-80deg);
+                }
+
+                90% {
+                    filter: hue-rotate(-85deg);
+                }
+
+                91% {
+                    filter: hue-rotate(-90deg);
+                }
+
+                92% {
+                    filter: hue-rotate(-95deg);
+                }
+
+                93% {
+                    filter: hue-rotate(-100deg);
+                }
+
+                94% {
+                    filter: hue-rotate(-105deg);
+                }
+
+                95% {
+                    filter: hue-rotate(-110deg);
+                }
+
+                96% {
+                    filter: hue-rotate(-115deg);
+                }
+
+                97% {
+                    filter: hue-rotate(-120deg);
+                }
+
+                98% {
+                    filter: hue-rotate(-125deg);
+                }
+
+                99% {
+                    filter: hue-rotate(-130deg);
+                }
+
+                100% {
+                    filter: hue-rotate(-135deg);
+                }
+}
+  
