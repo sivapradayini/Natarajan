@@ -1,7 +1,8 @@
 body {
-    background-color: lightcyan;
+    
     margin: 0;
     background: url(ban.jpg);
+    background-size: cover;
     animation: bubbles 5s infinite;
 
 }
